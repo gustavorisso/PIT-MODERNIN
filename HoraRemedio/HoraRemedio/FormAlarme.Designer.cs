@@ -143,6 +143,7 @@ namespace HoraRemedio
             this.cbDom.TabIndex = 14;
             this.cbDom.Text = "Dom";
             this.cbDom.UseVisualStyleBackColor = true;
+            this.cbDom.CheckedChanged += new System.EventHandler(this.cbDom_CheckedChanged);
             // 
             // cbSab
             // 
@@ -312,6 +313,7 @@ namespace HoraRemedio
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "FormAlarme";
             this.Text = "Alarme";
             this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;

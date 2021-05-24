@@ -149,6 +149,7 @@ namespace HoraRemedio
             this.Controls.Add(this.cpf);
             this.Controls.Add(this.logo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "FormLogin";
             this.Text = "Hora do Remédio";
             this.Load += new System.EventHandler(this.FormLogin_Load);

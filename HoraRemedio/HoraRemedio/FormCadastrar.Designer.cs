@@ -75,7 +75,7 @@ namespace HoraRemedio
             // 
             // 
             this.metroTextBox1.CustomButton.Image = null;
-            this.metroTextBox1.CustomButton.Location = new System.Drawing.Point(273, 1);
+            this.metroTextBox1.CustomButton.Location = new System.Drawing.Point(256, 1);
             this.metroTextBox1.CustomButton.Name = "";
             this.metroTextBox1.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.metroTextBox1.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -105,7 +105,7 @@ namespace HoraRemedio
             // 
             // 
             this.metroTextBox2.CustomButton.Image = null;
-            this.metroTextBox2.CustomButton.Location = new System.Drawing.Point(273, 1);
+            this.metroTextBox2.CustomButton.Location = new System.Drawing.Point(175, 1);
             this.metroTextBox2.CustomButton.Name = "";
             this.metroTextBox2.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.metroTextBox2.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -151,6 +151,7 @@ namespace HoraRemedio
             this.Controls.Add(this.nome);
             this.Controls.Add(this.logo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "FormCadastrar";
             this.Text = "Cadastro";
             this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;

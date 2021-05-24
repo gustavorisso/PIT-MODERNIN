@@ -142,5 +142,10 @@ namespace HoraRemedio
                 clbAlarme.Items.Remove(clbAlarme.CheckedItems[0]);
             }
         }
+
+        private void cbDom_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

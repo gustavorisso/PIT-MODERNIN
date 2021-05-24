@@ -326,6 +326,7 @@ namespace HoraRemedio
             this.Controls.Add(this.clbAgenda);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "FormAgenda";
             this.Text = "Agenda";
             this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;

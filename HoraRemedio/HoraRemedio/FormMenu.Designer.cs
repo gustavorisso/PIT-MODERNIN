@@ -156,6 +156,7 @@ namespace HoraRemedio
             this.Font = new System.Drawing.Font("Bebas Neue", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.MaximizeBox = false;
             this.Name = "FormMenu";
             this.Padding = new System.Windows.Forms.Padding(13, 60, 13, 20);
             this.Text = "Menu";
